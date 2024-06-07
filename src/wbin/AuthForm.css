@@ -1,0 +1,38 @@
+/* AuthForm.css */
+
+.auth-form-container {
+  width: 300px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White color */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+

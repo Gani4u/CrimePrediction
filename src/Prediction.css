@@ -1,0 +1,39 @@
+/* CrimeMap.css */
+
+/* Map container styling */
+.map-container {
+  height: calc(100vh - 50px); /* Adjusted height to accommodate the navigation toolbar */
+  width: 100%;
+  position: relative;
+}
+
+/* Navigation toolbar styling */
+.navigation-toolbar {
+  position: absolute; /* Position the legend absolutely */
+  top: 10px; /* Adjust top position */
+  left: 50px; /* Adjust right position */
+  background-color: white; /* Background color */
+  padding: 10px; /* Padding for content */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Border radius */
+  z-index: 1000; /* Ensure it's above other content */
+  max-width: 400px; /* Maximum width of the legend box */
+  max-height: 500px; /* Maximum height of the legend box */
+  overflow: auto;
+}
+
+/* Style for navigation buttons */
+.navigation-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.navigation-button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+

@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // Import Switch and Route
+import Signup from './Signup';
+import Login from './Login';
+import CrimeMap from './CrimeMap';
+import Prediction from './Prediction';
+import ImageGallery from './ImageGallery';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login} />
+        <Route path="/map" component={CrimeMap} />
+        <Route path="/prediction" component={Prediction} />
+        <Route path="/imagegallery" component={ImageGallery} />
+        <Route exact path="/signup" component={Signup} /> 
+        <Route exact path="/" component={Login} />
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
+

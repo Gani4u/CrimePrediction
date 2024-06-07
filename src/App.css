@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./background.png'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container,
+.login-container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency to make text readable */
+}
+

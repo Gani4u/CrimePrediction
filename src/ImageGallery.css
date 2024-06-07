@@ -1,0 +1,31 @@
+
+.image-gallery-container {
+  margin-top: 20px;
+}
+
+.gallery-title {
+  text-align: center;
+  color:white;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
+.image-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.image-item img {
+  width: 500px;
+  height: 300px;
+}
+
+.image-label {
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+}
+

@@ -1,0 +1,11 @@
+/* AuthPage.css */
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-container {
+  margin: 0 10px;
+}
+
